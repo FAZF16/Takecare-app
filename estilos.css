@@ -1,0 +1,200 @@
+/* Encabezados */
+/* H1 */
+.h1{
+    font-size: 70px;
+    line-height: 55px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:whitesmoke;
+
+}
+
+.h1-sec{
+    font-size: 70px;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: start;
+    text-transform: uppercase;
+    color:whitesmoke;
+    padding-bottom: 25px;
+}
+
+/* H2 (Sobre fondo de color- Título principal)*/
+.h2-inner-section-primary{
+    font-size: 43px;
+    line-height: 40px;
+    font-weight: 800px;
+    text-align: start;
+    text-transform: initial;
+    color: #004471;
+}
+/* H2 (Sobre fondo blanco - Para dividir secciones de la página)*/
+.h2-section{
+    font-size: 40px;
+    font-weight: 400px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #302f42;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+/* H4 (Títulos pequeños sobre bloques morados)*/
+.h3-inner-section{
+    font-size: 23px;
+    color: #004450;
+    text-align: center;
+}
+/* H4 (Título sobre fondo gris claro)*/
+.h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #004471;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+/* Párrafos */
+/* P (Sobre fondo de color- parrafo primario)*/
+.p-inner-section-primary{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: antiquewhite;
+    text-align: start;
+}
+/* P (Sobre fondo de color morado -Párrafo secundario)*/
+.p-inner-section{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: antiquewhite;
+    text-align: center;
+}
+/* P (Sobre fondo blanco)*/
+.p-standard{
+    font-size: 15px;
+    font-weight: 400;
+    color: #494949;
+    text-align: start;
+    margin-bottom: 30px;
+}
+/* Button (Botón estandar)*/
+.boton-estandar{
+    font-size: 15px;
+    letter-spacing: 4px;
+    background-color: #004471;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+}
+
+.boton-estandar:hover{
+    font-size: 17px;
+    letter-spacing: 4px;
+    background-color: #036fb8;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Img (En orden de aparición)*/
+.home-img{
+    margin-bottom: 50px;
+    padding-top: 200px;
+    padding-left: 80px;
+    padding-bottom: 90px;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQGlFH64Ofm2zA/company-background_10000/0?e=2159024400&v=beta&t=vcevyy34eevqFK6E4Y632cMwsD-XoIhbnp7sceBjavw);
+    background-size: 1080px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.quienes-somos-img{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  margin-bottom: -50px;
+}
+
+.quienes-somos-img:hover{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    margin-bottom: -70px;
+  }
+
+
+/* Baner de inicio */
+.banner-inicio{
+    margin-top: 55px;
+}
+
+.h1-banner-inicio{
+    text-align: start;
+}
+/* Bloques de color */
+/* Bloque gris */
+.bloque-gris{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+/* Bloques morado */
+#bloque-morado1{
+    margin-bottom: 50px;
+    background-color: #7F60DB;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#bloque-morado2{
+    background-color: #7F60DB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.bloque-morado3{
+    background-color: #7F60DB;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.icon-1{
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-2{
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-3{
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
