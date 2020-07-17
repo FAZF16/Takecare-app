@@ -12,6 +12,11 @@
 }
 
 
+.my-modal{
+    color: #595959;
+
+}
+
 .my-jumbotron {
 
   border: #ffffff solid 5px;
@@ -30,7 +35,6 @@
 .my-button {
 
     background-color: #004471;
-    margin-left: 20px;
 }
 
 
@@ -48,7 +52,7 @@ ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
 .month {
-  padding: 70px 25px;
+  padding: 10px;
   width: 100%;
   background: #85e7fe;
   color: #595959;
@@ -69,7 +73,7 @@ body {font-family: Verdana, sans-serif;}
 
 .month .prev {
   float: left;
-  padding-top: 10px;
+  padding-top: px;
 }
 
 .month .next {

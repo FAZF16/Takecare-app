@@ -50,9 +50,38 @@
           <img class="quienes-somos-img" src="./assets/avatar-09.png" alt="avatar1" width="400px">
       </div>
         <h1 class="display-4">Bienvenido a tu agenda!</h1>     
-        <p class="lead">En este sitio tendrás acceso rapidamente a toda tu informacion; como por ejemplo tus porximas citas, los horarios para tomar tus medicamentos recetados y ademas diariamente podras accesar a nuestros consejos saludables  personalizados.</p>
-        <p>Presiona el boton debajo para obtener tu consejo de hoy.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Consejos saludables</a>
+        <p class="lead">En este sitio tendrás acceso rapidamente a toda tu informacion; como por ejemplo: tus próximas citas, los horarios para tomar tus medicamentos recetados y ademas diariamente podras accesar a nuestros consejos saludables  personalizados.</p>
+        <p>Presiona el boton debajo para obtener tu consejo de salud.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Consejo de hoy.
+          </button>
+        </a>
+        
+        
+<!-- Modal -->
+<div class="modal fade my-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Como nuestro nombre lo dice, cuidamos de tí.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ¡Toma al menos 8 vasos de agua al día.!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="./agenda.html">
+          <button type="button" class="btn btn-primary">Entendido</button>
+
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
 
       <div>
@@ -98,8 +127,8 @@
           <li>13</li>
           <li>14</li>
           <li>15</li>
-          <li><span class="active">16</span></li>
-          <li>17</li>
+          <li>16</li>
+          <li><span class="active">17</span></li>
           <li>18</li>
           <li>19</li>
           <li>20</li>
@@ -165,7 +194,7 @@
     </tbody>
   </table>
 
-  <button type="button" class="btn btn-primary btn-lg">Nueva receta médica</button>
+  <button type="button my-button" class="btn btn-primary btn-lg my-button">Nueva receta médica</button>
 
   <h1> Citas médicas</h1>
 
@@ -181,41 +210,44 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Lunes</td>
+      <td>Lunes 13 de Julio</td>
       <td>6:00 am - 8:00 am</td>
       <td>Pediatría</td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Martes</td>
-      <td>6:00 am - 8:00 am</td>
+      <td>Lunes 20 de Julio</td>
+      <td>7:00 am - 8:00 am</td>
       <td>Ortopedia</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Miércoles</td>
+      <td>Miércoles 22 de Julio</td>
       <td>No hay citas</td>
-      <td>No aplica</td>
+      <td>N/A</td>
     </tr>
 
     <tr>
       <th scope="row">4</th>
-      <td>Jueves</td>
+      <td>Jueves 30 de Julio</td>
       <td>9:00 am - 10:00 am</td>
       <td>Terápia Física</td>
     </tr>
 
     <tr>
       <th scope="row">5</th>
-      <td>Viernes</td>
+      <td>Viernes 31 de Julio</td>
       <td>2:00 pm - 3:00 pm</td>
       <td>Psicología</td>
     </tr>
   </tbody>
  </table>
- <button type="button" class="btn btn-primary btn-lg">Nueva cita médica</button>
+ <button type="button " class="btn btn-primary btn-lg my-button">Nueva cita médica</button>
 </div>
+
+
+<script src="./main.js"></script>
 
 
 
