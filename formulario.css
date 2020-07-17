@@ -203,6 +203,7 @@
 .espT{
     width: 15vh;
     height: 2vh;
+    color: white;
 }
 
 
@@ -269,6 +270,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: #595959;
 }
 
 .opR{
