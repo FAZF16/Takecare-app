@@ -35,14 +35,11 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Lugares
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+                <a class="dropdown-item" href="#">Recetas médicas</a>
+                <a class="dropdown-item" href="#">Citas médicas</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -52,33 +49,82 @@
         </div>
       </nav>
 
+      <br>
+      <!-- Jumbotron  -->
 
+      <div class="jumbotron my-jumbotron">
+        <h1 class="display-4">Bienvenido a tu agenda!</h1>
+        <p class="lead">En este sitio tendrás acceso rapidamente a toda tu informacion; como por ejemplo tus porximas citas, los horarios para tomar tus medicamentos recetados y ademas diariamente podras accesar a nuestros consejos saludables  personalizados </p>
+        <hr class="my-4">
+        <p>Presiona el boton debajo para obtener tu consejo de hoy.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Consejos saludables</a>
+      </div>
 
+      <div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+        <h1 style="text-align: center;">Calendario</h1>
+      
+        <div class="month">      
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>
+              Julio
+              <span style="font-size:18px">2020</span>
+            </li>
+          </ul>
+        </div>
+        
+        <ul class="weekdays">
+          <li>Lunes</li>
+          <li>Martes</li>
+          <li>Miercoles</li>
+          <li>Jueves</li>
+          <li>Viernes</li>
+          <li>Sábado</li>
+          <li>Domingo</li>
+        </ul>
+        
+        <ul class="days">  
+          <li></li>
+          <li></li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li><span class="active">16</span></li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul>
+ 
 </div>
-<p></p>
-
-
 <!-- Tabla con los medicamentos e indicaciones + Calendario -->
+<h1 style=" text-align: center; "> Recetas médicas</h1>
+
 <div class="agenda">
 
   <table class="table-bordered table my-table">
@@ -94,46 +140,91 @@
       <tr>
         <th scope="row">1</th>
         <td>Ibufreno</td>
-        <td>Cada 6 horas</td>
+        <td>Cada 6 h</td>
         <td>Estreñimiento, diarrea, gases o distensión abdominal, mareo, nerviosismo, zumbidos en los oídos.</td>
       </tr>
       <tr>
         <th scope="row">2</th>
         <td>Antigripal</td>
-        <td>Cada 12 horas</td>
+        <td>Cada 12 h</td>
         <td>Dolor de cabeza, Fiebre, Náuseas, Dolores musculares.</td>
       </tr>
       <tr>
         <th scope="row">3</th>
         <td>Analgésicos no opiáceos</td>
-        <td>Cada 6 horas</td>
+        <td>Cada 6 h</td>
         <td>Afecciones renales, trastornos hepáticos, trastornos de hemorragia y hematomas</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Insulina</td>
+        <td>Cada 10 h</td>
+        <td>Afecciones renales</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Analgésicos opiáceos</td>
+        <td>Cada 6 h</td>
+        <td>Afecciones renales</td>
       </tr>
     </tbody>
   </table>
 
-<!-- Termina tabla -->
+  <h1 style=" text-align: center; "> Citas médicas</h1>
 
-<!-- Calendario -->
+ <table class="table-bordered table my-table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Día</th>
+      <th scope="col">Hora</th>
+      <th scope="col">Especialidad médica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Lunes</td>
+      <td>6:00 am - 8:00 am</td>
+      <td>Pediatría</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Martes</td>
+      <td>6:00 am - 8:00 am</td>
+      <td>Ortopedia</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Miércoles</td>
+      <td>No hay citas</td>
+      <td>No aplica</td>
+    </tr>
 
+    <tr>
+      <th scope="row">4</th>
+      <td>Jueves</td>
+      <td>9:00 am - 10:00 am</td>
+      <td>Terápia Física</td>
+    </tr>
 
-<iframe src="https://calendar.google.com/calendar/embed?src=ieu5ai2n7ka0aglidmo45qe7fg%40group.calendar.google.com&ctz=America%2FCosta_Rica" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <tr>
+      <th scope="row">5</th>
+      <td>Viernes</td>
+      <td>2:00 pm - 3:00 pm</td>
+      <td>Psicología</td>
+    </tr>
+  </tbody>
+ </table>
+
 
 </div>
 
-<p></p>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary my-button" data-toggle="modal" data-target="#exampleModal">
-        Consejos del día
-      </button>
-<p></p>
-    
 
-
-    <div class="footer">
-      <p>Resize the browser window to see how the content respond to the resizing.</p>
-    </div>
-    
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
