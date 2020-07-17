@@ -19,45 +19,36 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light my-nav">
-        <a class="navbar-brand" href="#">TakeCare-App</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="navbar-brand" href="#">
+        <img src="#" alt="#">
+        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="navbar-responsive">
+            <span class="navbar-toggler-icon"></span>
+    </a>
+    </button>
+
+    <div class="collapse navbar-collapse" id="#navbar-responsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Registro</a>
+                <a class="nav-link" href="./formulario.html">REGISTRO</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Lugares
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Recetas médicas</a>
-                <a class="dropdown-item" href="#">Citas médicas</a>
+            <li class="nav-item">
+                <a class="nav-link" href="./agenda.html">AGENDA</a>
             </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search"  aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-          </form>
-        </div>
-      </nav>
+        </ul>
+    </div>
+</nav>
       <!-- Jumbotron  -->
 
       <div class="jumbotron my-jumbotron">
 
 
-        <div style="margin-left: 75px; margin-top: -30px; ">
-          <img style="width: 375px; height: 375px;" src="https://previews.123rf.com/images/yupiramos/yupiramos1711/yupiramos171127915/90451786-coraz%C3%B3n-con-dise%C3%B1o-m%C3%A9dico-del-ejemplo-del-vector-del-estetoscopio.jpg">
-          <img src="./assets/form.png">
-          <img style="width: 375px; height: 375px;" src="https://previews.123rf.com/images/milanpetrovic/milanpetrovic1509/milanpetrovic150900055/45740115-curita-color-ilustraci%C3%B3n-vectorial.jpg">
-        </div>
+        <div class="col-lg" style="background-color: #85E7FE;">
+          <img class="quienes-somos-img" src="./assets/avatar-08.png" alt="avatar1" width="400px">
+      </div>
         <h1 class="display-4">Bienvenido a tu agenda!</h1>     
         <p class="lead">En este sitio tendrás acceso rapidamente a toda tu informacion; como por ejemplo tus porximas citas, los horarios para tomar tus medicamentos recetados y ademas diariamente podras accesar a nuestros consejos saludables  personalizados.</p>
         <p>Presiona el boton debajo para obtener tu consejo de hoy.</p>
@@ -66,7 +57,7 @@
 
       <div>
 
-        <h1 style="text-align: center;">Calendario</h1>
+        <h1>Calendario</h1>
       
         <div class="month">      
           <ul>
@@ -127,7 +118,7 @@
  
 </div>
 <!-- Tabla con los medicamentos e indicaciones + Calendario -->
-<h1 style=" text-align: center; "> Recetas médicas</h1>
+<h1>Recetas médicas</h1>
 
 <div class="agenda">
 
@@ -174,7 +165,7 @@
     </tbody>
   </table>
 
-  <h1 style=" text-align: center; "> Citas médicas</h1>
+  <h1> Citas médicas</h1>
 
  <table class="table-bordered table my-table">
   <thead>
@@ -225,10 +216,6 @@
 
 </div>
 
-
-<div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
-</div>
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
