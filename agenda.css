@@ -14,6 +14,8 @@
 
 .my-jumbotron {
 
+  border: #ffffff solid 5px;
+  justify-content: space-evenly;
   background-color: #7f60db;
   color: #ffffff;
 }
